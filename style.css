@@ -1,0 +1,94 @@
+
+.kn-max-md{
+  max-width: 75rem;
+}
+.kn-auto{
+  margin: 0 auto;
+}
+.kn-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.kn-flex-column{
+  flex-direction: column;
+}
+
+.kn-flex-1{
+  flex: 1 1 300px;
+
+}
+
+
+.header-menu{
+  background-color: #fff;
+  height: 80px;
+}
+
+
+.quemSomos-info{
+  max-width: 600px;
+}
+
+.quemSomos-info p{
+  max-width: 60ch;
+}
+.kn-color-100{
+  color: #000;
+}
+
+.kn-font-bold{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.kn-rounded{
+  border-radius: 50%;
+}
+
+.image{
+  display: block;
+  width: 100%;
+  max-width: 15.652rem;
+  height:15.652rem;
+  object-fit: cover;
+
+}
+
+#nossoTime{
+  background-color: #efefef;
+}
+
+.nossosProdutosContainer{
+  flex-wrap: wrap;
+}
+
+.nossosProdutosContainer .card{
+  margin: auto;
+}
+
+.footerbg{
+  background-color: #efefef;
+}
+
+@media(max-width:100px){
+  .nossosProdutos{
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 870px){
+  :root{
+    font-size: 87.5%;
+  }
+  .kn-flex{
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .image{
+    max-width: 14rem;
+    height: 14rem;
+  }
+}

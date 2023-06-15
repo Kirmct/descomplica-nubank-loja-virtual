@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Loja Virtual</title>
+</head>
+
+<body class="">
+<!-- header menu -->
+  <header class="header-menu fixed-top">
+    <nav class="navbar navbar-expand-lg bg-body-primary">
+      <div class="container-xl py-2">
+        <a class="navbar-brand kn-font-bold" href="#">DescNuStore</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#quemSomos">Quem Somos</a>
+            </li>   
+            <li class="nav-item">
+              <a class="nav-link" href="#nossoTime">Nosso Time</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="#nossosProdutos">Nossos Produtos</a>
+            </li>  
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- carousel component -->
+  <section>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button  type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <img src="./assets/images/a01.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block  kn-color-100">
+            <h5 class="kn-font-bold">Adibas Fórum Low</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/a02.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block  kn-color-100">
+            <h5 class="kn-font-bold">Adibas Fórum Low 2</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/a03.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block  kn-color-100">
+            <h5 class="kn-font-bold">Adibas Samba</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- quem somo compoment -->
+  <section id="quemSomos">
+    <div class="p-4 kn-flex kn-max-md kn-auto">     
+        <div class="quemSomos-info">
+          <h2>Quem Somos</h2>
+          <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aspernatur labore fugit eos, commodi ipsam dicta excepturi magni ipsum, expedita esse quos repellendus id distinctio cupiditate temporibus officiis natus. Voluptatem.</p>
+        </div>
+        <div class="">
+          <img class="kn-rounded image" src="./assets/images/about.jpg" alt="">
+        </div>    
+    </div>
+  </section>
+  <!-- nosso time component  -->
+  <article id="nossoTime" class="py-4">
+    <h3 class="kn-max-md kn-auto px-4">Nosso Time</h3>
+    <div class="kn-max-md kn-auto kn-flex">
+
+      <div class="nossoTimePessoa kn-flex kn-flex-column kn-flex-1">
+        <img class="image kn-rounded" src="./assets/images/about.jpg" alt="">
+        <div class="nossoTimePessoaInfo text-center">
+          <h4>Name Person 01</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur.</p>
+        </div>
+      </div>
+
+      <div class="nossoTimePessoa kn-flex kn-flex-column kn-flex-1 ">
+        <img class="image kn-rounded" src="./assets/images/about.jpg" alt="">
+        <div class="nossoTimePessoaInfo text-center">
+          <h4>Name Person 01</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur.</p>
+        </div>
+      </div>
+
+      <div class="nossoTimePessoa kn-flex kn-flex-column kn-flex-1">
+        <img class="image kn-rounded" src="./assets/images/about.jpg" alt="">
+        <div class="nossoTimePessoaInfo text-center">
+          <h4>Name Person 01</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur.</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <!-- nossosProdutos -->
+  <article id="nossosProdutos" class="py-4">
+    <h3 class="kn-auto px-4 kn-max-md ">Nossos Produtos</h3>
+
+    <div class="kn-flex text-center py-4 kn-max-md kn-auto nossosProdutosContainer">  
+      <div class="kn-flex-1 kn-auto">
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/images/a01.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="kn-flex-1 kn-auto">
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/images/a02.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="kn-flex-1 kn-auto">
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/images/a03.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="kn-flex-1 kn-auto">
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/images/a01.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="kn-flex-1 kn-auto">
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/images/a02.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="kn-flex-1 kn-auto">
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/images/a03.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </article>
+
+  <footer class="footerbg py-4">
+    <div class="kn-auto kn-flex">
+      <p>Feito por Kirmct de Abreu</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+ </body>
+
+</html>
