@@ -20,13 +20,13 @@
   flex: 1 1 300px;
 
 }
-
-
 .header-menu{
   background-color: #fff;
   height: 80px;
 }
-
+.tenis{
+  margin-top: 80px;
+}
 
 .quemSomos-info{
   max-width: 600px;
